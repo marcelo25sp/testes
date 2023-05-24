@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Testes {
 
@@ -12,6 +13,11 @@ public class Testes {
 		sexo = 'M';
 		confirmar = true;
 		nome = "Marcelo";
+		
+		System.out.println("Digite o nome do usuário:");
+		Scanner teclado = new Scanner(System.in);
+		nome = teclado.next();
+		System.out.println("Bem vindo(a)" + nome);
 	}
 
 }
