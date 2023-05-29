@@ -34,6 +34,19 @@ public class Testes {
 		nota =  Float.parseFloat(JOptionPane.showInputDialog("Digite a nota do usuário:"));
 		salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário do usuário:"));		
 		JOptionPane.showMessageDialog(null, nome + ": a sua nota foi " + nota);
+		
+		System.out.println("Exemplos de comandos if-else");
+		System.out.println("");
+		int idade =16;
+		if(idade < 18) {
+			System.out.println("VOTO FACULTATIVO");
+		}else if(idade>=18 && idade <=70) {
+			System.out.println("VOTO OBRIGATÓRIO");
+		}else {
+			System.out.println("VOTO INVÁLIDO");
+		}
+		
+		
 	
 	}
 

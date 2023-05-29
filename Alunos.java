@@ -17,6 +17,18 @@ public class Alunos {
 		double media = (av1+av2+av3)/3;
 		JOptionPane.showMessageDialog(null, nome + " sua média foi " + media); 
 		
+		if (media <6) {
+			System.out.println("ALUNO REPROVADO!");
+			JOptionPane.showMessageDialog(null,"ALUNO REPROVADO!" );
+			
+		}else if(media >=6 && media<7) {
+			System.out.println("ALUNO EM RECUPERAÇÃO!");
+			JOptionPane.showMessageDialog(null,"ALUNO EM RECUPERAÇÃO!");					
+		}else {
+			System.out.println("ALUNO APROVADO!");
+			JOptionPane.showMessageDialog(null,"ALUNO APROVADO!" );
+		}
+		
 		
 	}
 
